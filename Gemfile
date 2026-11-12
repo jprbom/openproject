@@ -72,7 +72,7 @@ gem "awesome_nested_set", "~> 3.9.0"
 gem "closure_tree", "~> 9.6.1"
 gem "rubytree", "~> 2.2.0"
 
-gem "addressable", "~> 2.8.9"
+gem "addressable", "~> 2.9.2"
 
 # Remove whitespace from model input
 gem "auto_strip_attributes", "~> 2.5"
@@ -114,7 +114,7 @@ gem "email_validator", "~> 2.2.3"
 gem "json_schemer", "~> 2.5.0"
 gem "ruby-duration", "~> 3.2.0"
 
-gem "mail", "2.9.0"
+gem "mail", "2.9.1"
 
 gem "csv", "~> 3.3"
 
@@ -124,7 +124,7 @@ gem "sys-filesystem", "~> 1.5.0", require: false
 gem "bcrypt", "~> 3.1.22"
 
 gem "multi_json", "~> 1.19.0"
-gem "oj", "~> 3.16.16"
+gem "oj", "~> 3.17.3"
 
 gem "daemons"
 gem "good_job", "~> 4.13.3" # update should be done manually in sync with saas-openproject version.
@@ -161,7 +161,7 @@ gem "ttfunk", "~> 1.7.0" # remove after https://github.com/prawnpdf/prawn/issues
 # prawn implicitly depends on matrix gem no longer in ruby core with 3.1
 gem "matrix", "~> 0.4.3"
 
-gem "mcp", "~> 0.8.0"
+gem "mcp", "~> 0.23.0"
 
 gem "meta-tags", "~> 2.23.0"
 
@@ -193,13 +193,13 @@ gem "rails-i18n", "~> 8.1.0"
 gem "sprockets", "~> 3.7.2" # lock sprockets below 4.0
 gem "sprockets-rails", "~> 3.5.1"
 
-gem "puma", "~> 7.1"
+gem "puma", "~> 7.2"
 gem "puma-plugin-statsd", "~> 2.7"
 gem "rack-timeout", "~> 0.7.0", require: "rack/timeout/base"
 
-gem "nokogiri", "~> 1.19.1"
+gem "nokogiri", "~> 1.19.5"
 
-gem "carrierwave", "~> 2.2.6"
+gem "carrierwave", "~> 2.2.7"
 gem "carrierwave_direct", "~> 3.0.0"
 gem "ssrf_filter", "~> 1.3"
 gem "fog-aws"
@@ -240,7 +240,7 @@ gem "opentelemetry-exporter-otlp", "~> 0.32.0", require: false
 gem "opentelemetry-instrumentation-all", "~> 0.91.0", require: false
 gem "opentelemetry-sdk", "~> 1.10", require: false
 
-gem "view_component", "~> 4.5.0"
+gem "view_component", "~> 4.12.0"
 # Lookbook
 gem "lookbook", "2.3.14"
 
